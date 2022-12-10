@@ -21,7 +21,19 @@ const Footer = () => {
     <div className={Style.footer}>
       <div className={Style.footer_box}>
         <div className={Style.footer_box_social}>
-          <Image src={images.logo} alt="footer logo" height={100} width={100} />
+          <Image
+            src={images.logo}
+            alt="footer logo"
+            height={100}
+            width={100}
+            style={{
+              maxWidth: "100%",
+              height: "auto",
+              maxWidth: "100%",
+              height: "auto",
+              maxWidth: "100%",
+              height: "auto"
+            }} />
           <p>
             The world’s first and largest digital marketplace for crypto
             collectibles and non-fungible tokens (NFTs). Buy, sell, and discover

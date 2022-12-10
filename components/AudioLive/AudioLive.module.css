@@ -1,0 +1,57 @@
+.audioLive {
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.audioLive_box {
+  width: 80%;
+  margin: 0 auto;
+  padding-block: 2rem 8rem;
+
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 2rem;
+}
+
+.audioLive_box_right {
+  padding: 0.5rem 0 0 0;
+  display: grid;
+  gap: 2rem;
+}
+
+.audioLive_box_left {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+@media screen and (max-width: 1080px) {
+  .audioLive_box {
+    width: 95%;
+    grid-template-columns: 1fr;
+  }
+
+  /* .audioLive_box_left {
+    grid-template-columns: repeat(2, 1fr);
+  } */
+}
+
+@media screen and (max-width: 767px) {
+  .audioLive_box {
+    width: 90%;
+  }
+
+  .audioLive_box_left {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .audioLive_box {
+    grid-template-columns: 1fr;
+  }
+
+  .audioLive_box_left {
+    gap: 3.5rem;
+  }
+}

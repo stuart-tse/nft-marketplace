@@ -42,6 +42,7 @@ import vectorHIW from "./vectorHIW.svg";
 import vimeo from "./vimeo.svg";
 import youtube from "./youtube.svg";
 import zgcmq from "./zgcmq.svg";
+import NFTVideo from "./nftvideo.png";
 
 export default {
   collection,
@@ -88,4 +89,5 @@ export default {
   vimeo,
   youtube,
   zgcmq,
+  NFTVideo,
 };

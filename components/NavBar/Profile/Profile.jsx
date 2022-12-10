@@ -19,7 +19,14 @@ const Profile = () => {
           width={50}
           height={50}
           className={Style.profile_account_img}
-        />
+          style={{
+            maxWidth: "100%",
+            height: "auto",
+            maxWidth: "100%",
+            height: "auto",
+            maxWidth: "100%",
+            height: "auto"
+          }} />
         <div className={Style.profile_account_info}>
           <small>x03438782720020</small>
         </div>

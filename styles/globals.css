@@ -5,6 +5,7 @@
   --icons-light-color: #4c577341;
   --icons-bg-color: #e2e6e9;
   --shadow-dark-color: #d3dae7;
+  --bg-shadow-dark-color: #e4e7ee;
   --shadow-light-color: #fff;
   --main-bg-color: #ecf0f3;
 
@@ -23,6 +24,7 @@ body {
   font-size: 14px;
   background-color: var(--main-bg-color);
   color: var(--icons-color);
+  /* overflow-x: hidden; */
 }
 
 a {

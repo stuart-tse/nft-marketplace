@@ -22,10 +22,17 @@ const HeroSection = () => {
           <Image
             src={images.hero}
             alt="Hero section"
-            width="100%"
-            height="100%"
-            layout="responsive"
-          />
+            width={800}
+            // layout="responsive"
+            height={800}
+            style={{
+              maxWidth: "100%",
+              height: "auto",
+              maxWidth: "100%",
+              height: "auto",
+              maxWidth: "100%",
+              height: "auto"
+            }} />
         </div>
       </div>
     </div>

@@ -17,7 +17,14 @@ const Notification = () => {
             width={50}
             height={50}
             className={Style.notification_box_img}
-          />
+            style={{
+              maxWidth: "100%",
+              height: "auto",
+              maxWidth: "100%",
+              height: "auto",
+              maxWidth: "100%",
+              height: "auto"
+            }} />
         </div>
         <div className={Style.notification_box_info}>
           <h4>Shoaib akhter</h4>
